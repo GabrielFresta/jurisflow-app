@@ -2,7 +2,7 @@
 
 Sistema de gestão visual de processos jurídicos, no formato Kanban, desenvolvido para ajudar escritórios de advocacia a acompanhar o andamento de cada caso de forma simples e rápida.
 
-🔗 **[Ver projeto ao vivo](#)** &nbsp;|&nbsp; 📂 **[Ver código-fonte](#)**
+🔗 **[Ver projeto ao vivo](https://gabrielfresta.github.io/jurisflow-app/)** &nbsp;|&nbsp; 📂 **[Ver código-fonte](https://github.com/GabrielFresta/jurisflow-app)**
 
 ---
 
@@ -46,10 +46,10 @@ O projeto foi construído com **JavaScript puro (Vanilla JS)**, sem frameworks, 
 
 ```bash
 # Clone o repositório
-git clone https://github.com/GabrielFresta/jurisflow.git
+git clone https://github.com/GabrielFresta/jurisflow-app.git
 
 # Entre na pasta do projeto
-cd jurisflow
+cd jurisflow-app
 
 # Abra o index.html no navegador
 # (ou use a extensão Live Server do VS Code)
@@ -62,7 +62,7 @@ Não é necessário instalar dependências — o projeto roda 100% no navegador.
 ## 📁 Estrutura do projeto
 
 ```
-jurisflow/
+jurisflow-app/
 ├── index.html      # Estrutura da página e do formulário
 ├── style.css        # Estilos, variáveis de cor e responsividade
 ├── script.js         # Lógica do quadro, persistência e validações
@@ -85,4 +85,4 @@ jurisflow/
 Feito por **Gabriel Fresta**
 Estudante de Análise e Desenvolvimento de Sistemas (UCAM) | Em formação FullStack JS
 
-📫 Vamos nos conectar? [LinkedIn](#) &nbsp;|&nbsp; [GitHub](https://github.com/GabrielFresta)
+📫 Vamos nos conectar? [LinkedIn](https://www.linkedin.com/in/gabriel-fresta-345117207) &nbsp;|&nbsp; [GitHub](https://github.com/GabrielFresta)
