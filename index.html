@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JurisFlow - Gestão Visual de Processos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="logo">
+        <h1>JurisFlow</h1>
+        <span>Gestão do Escritório</span>
+      </div>
+
+      <div class="header-actions">
+        <button id="btnNewCard" class="btn-primary">+ Novo Processo</button>
+      </div>
+    </header>
+
+    <!-- Container Principal -->
+    <main class="board-container" id="boardContainer">
+      <!-- Via JS -->
+    </main>
+    <!-- Modal para Cadastro de novo Processo -->
+    <dialog id="cardModal">
+      <form id="cardForm" method="dialog">
+        <h2>Cadastrar Processo Judicial</h2>
+
+        <label for="inputNumero">Número do Processo</label>
+        <input
+          type="text"
+          id="inputNumero"
+          placeholder="Digite o número do processo"
+          required
+        />
+
+        <label for="inputCliente">Clientes</label>
+        <input
+          type="text"
+          id="inputCliente"
+          placeholder="Nome do(a) Cliente ou Empresa"
+          required
+        />
+
+        <label for="inputArea">Área do Direito</label>
+        <select id="inputArea" required>
+          <option value="Trabalhista">Trabalhista</option>
+          <option value="Cível">Cível</option>
+          <option value="Penal">Penal</option>
+          <option value="Tributário">Tributário</option>
+        </select>
+
+        <label for="inputPrazo">Prazo Final</label>
+        <input type="date" id="inputPrazo" required />
+
+        <label for="inputAdvogado">Advogado(a) Responsável</label>
+        <input
+          type="text"
+          id="inputAdvogado"
+          placeholder="Ex: Dr João"
+          required
+        />
+
+        <div class="modal-actions">
+          <button type="button" id="btnCancelModal">Cancelar</button>
+          <button type="submit" class="btn-primary">Salvar Processo</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
